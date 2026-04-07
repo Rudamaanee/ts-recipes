@@ -71,3 +71,9 @@ export default defineConfig([
   },
 ])
 ```
+
+# localhost:5173
+
+```js
+npm run dev
+```
