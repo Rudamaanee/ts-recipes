@@ -72,8 +72,73 @@ export default defineConfig([
 ])
 ```
 
-# localhost:5173
+# 설치 과정
+## React + TS 프로젝트 생성
+```js
+npm create vite@latest
+```
+
+## 실행
+```js
+cd ts-recipes
+npm install
+npm run dev
+```
+
+# SCSS
+## 설치
+```js
+npm install sass
+```
+## SCSS 구조
+```js
+src/assets/scss/
+ ├── abstracts/        // 전역 설정 (로직)
+ │    ├── _variables.scss
+ │    ├── _mixin.scss
+ │    ├── _functions.scss
+ │    └── _index.scss
+ │
+ ├── base/             // 기본 스타일
+ │    ├── _reset.scss
+ │    ├── _fonts.scss
+ │    └── _base.scss
+ │
+ ├── layout/           // 레이아웃
+ │    ├── _header.scss
+ │    ├── _footer.scss
+ │    └── _grid.scss
+ │
+ ├── components/       // UI 컴포넌트
+ │    ├── _button.scss
+ │    ├── _card.scss
+ │    └── _modal.scss
+ │
+ ├── pages/            // 페이지별 스타일
+ │    └── _home.scss
+ │
+ └── index.scss        // 엔트리
+```
+
+# 
+```js
+src/
+ ├── components/
+ │    ├── RecipeCard.tsx
+ │    ├── Header.tsx
+ │    └── Button.tsx
+ ├── pages/
+ │    ├── Home.tsx
+ │    ├── Detail.tsx
+ │    └── Write.tsx
+ ├── api/
+ │    └── recipe.ts
+ ├── assets/
+ │    └── scss/
+```
+
 
 ```js
-npm run dev
+```
+```js
 ```
