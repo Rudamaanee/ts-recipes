@@ -1,13 +1,25 @@
 type Props = {
-  title: string;
-  image: string;
+  recipe: {
+    id: string;
+    imgUrl: string;
+    title: string;
+    chef: string;
+  };
 };
 
-export default function RecipeCard({ title, image }: Props) {
+import { Link } from "react-router-dom";
+
+export default function RecipeCard({ recipe }: Props) {
   return (
-    <div className="recipe-card">
-      <img src={image} alt={title} />
-      <h3>{title}</h3>
-    </div>
+    <Link to={`/detail/${recipe.id}`} className="recipe-card">
+      <div className="card-img">
+        <img src={recipe.imgUrl} alt={recipe.title} />
+      </div>
+
+      <div className="card-body">
+        <h3>{recipe.title}</h3>
+        <p>{recipe.chef}</p>
+      </div>
+    </Link>
   );
 }

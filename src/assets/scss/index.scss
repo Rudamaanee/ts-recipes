@@ -1,13 +1,4 @@
-@charset "utf-8";
-
-@use './abstracts';
-@use './base/reset';
-@use './base/base';
-
-@use './layout/header';
-@use './layout/footer';
-
-// @use './components/button';
-// @use './components/card';
-
-@use './pages/main';
+@use "./base/reset";
+@use "./components/recipe";
+@use "./pages/home";
+@use "./pages/detail";

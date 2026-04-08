@@ -1,0 +1,14 @@
+@use "../abstracts" as *;
+
+#root {
+    height: 100%;
+    overflow-y: auto;
+
+}
+.recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    padding: 20px;
+    overflow-y: auto;
+}

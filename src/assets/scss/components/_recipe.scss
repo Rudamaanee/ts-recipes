@@ -1,0 +1,49 @@
+@use "../abstracts" as *;
+
+.recipe-card {
+  display: block;
+  border-radius: 12px;
+  overflow: auto;
+  background: #fff;
+  text-decoration: none;
+  color: inherit;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+  }
+
+  &:hover &__image img {
+    transform: scale(1.05);
+  }
+
+  &__content {
+    padding: $spacing-md;
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+
+  &__author {
+    font-size: 13px;
+    color: $color-gray;
+  }
+}
