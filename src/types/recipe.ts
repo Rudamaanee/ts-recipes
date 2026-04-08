@@ -1,13 +1,13 @@
 export interface Recipe {
   id: string;
+  imgUrl: string;
+  videoUrl: string;
   title: string;
   chef: string;
   category: string;
-  imgUrl?: string;
-  videoUrl?: string;
-  sourceUrl?: string;
-  ingredients: string[];
-  seasonings: string[];
-  steps: string[];
   typeList: string;
+  sourceUrl: string;
+  ingredients: string[];
+  steps: string[];
+  seasonings?: string[]; // ✅ optional
 }

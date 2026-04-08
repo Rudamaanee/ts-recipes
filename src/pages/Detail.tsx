@@ -25,7 +25,7 @@ export default function Detail() {
 
             <h3>양념</h3>
             <ul className="seasonings">
-                {recipe.seasonings.map((item, index) => (
+                {recipe.seasonings?.map((item, index) => (
                     <li key={index}>{item}</li>
                 ))}
             </ul>

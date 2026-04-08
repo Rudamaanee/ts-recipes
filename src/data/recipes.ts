@@ -330,6 +330,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "냉채",
         typeList: "salad",
+        sourceUrl: "",
         ingredients: [
             "오이 2개",
             "맛살 4개"
@@ -359,6 +360,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "샌드위치",
         typeList: "bread",
+        sourceUrl: "",
         ingredients: [
             "오이 2개"
         ],
@@ -380,6 +382,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "장아찌",
         typeList: "kimchiSaltedPaste",
+        sourceUrl: "",
         ingredients: [
             "마늘 반접(50개기준)"
         ],
@@ -414,6 +417,7 @@ export const recipes: Recipe[] = [
         chef: "이보은 샘→마카롱여사",
         category: "장아찌",
         typeList: "kimchiSaltedPaste",
+        sourceUrl: "",
         ingredients: [
             "백오이 50개"
         ],
@@ -442,6 +446,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "무침",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "오이지 5개"
         ],
@@ -466,6 +471,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "장아찌",
         typeList: "kimchiSaltedPaste",
+        sourceUrl: "",
         ingredients: [
             "그린파파야 큰 거 4개"
         ],
@@ -497,6 +503,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "샐러드",
         typeList: "salad",
+        sourceUrl: "",
         ingredients: [
             "파파야 400~500g",
             "볶은 땅콩",
@@ -532,6 +539,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "조림",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "쥐포 300g"
         ],
@@ -563,6 +571,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "장조림",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "달걀 7개",
             "양파 반 개",
@@ -598,6 +607,7 @@ export const recipes: Recipe[] = [
         chef: "쭈야공님→마카롱여사",
         category: "메인반찬",
         typeList: "mainSideDished",
+        sourceUrl: "",
         ingredients: [
             "냉동 대패삼겹살 600g",
             "쪽파 한 줌",
@@ -632,6 +642,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "장아찌",
         typeList: "seasoningSauceJam",
+        sourceUrl: "",
         ingredients: [
             "냉이 400~500g"
         ],
@@ -658,6 +669,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "전",
         typeList: "pancake",
+        sourceUrl: "",
         ingredients: [
             "미라니 100g",
             "청양고추 2개",
@@ -688,6 +700,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "탕",
         typeList: "krSoup",
+        sourceUrl: "",
         ingredients: [
             "토막 닭 800g",
             "감자 3개",
@@ -727,6 +740,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "볶음",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "가늘게 찟은 황태포 80~100g",
             "쪽파 한 줌",
@@ -759,6 +773,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "무침",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "대파 25cm 길이 4개",
             "콩나물 300g",
@@ -794,6 +809,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "전",
         typeList: "pancake",
+        sourceUrl: "",
         ingredients: [
             "느타리 200g",
             "만가닥 300g",
@@ -827,6 +843,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "조림",
         typeList: "krSoup",
+        sourceUrl: "",
         ingredients: [
             "무 큰 거 한개 (1.3kg 정도)",
             "멸치 한줌 + 물 1L"
@@ -866,6 +883,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "볶음",
         typeList: "mainSideDished",
+        sourceUrl: "",
         ingredients: [
             "반건조 오징어 3마리",
             "대파 1개",
@@ -903,6 +921,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "조림",
         typeList: "krstew",
+        sourceUrl: "",
         ingredients: [
             "두부 한 모 380g",
             "스테이크용 고기 한덩이 235g"
@@ -946,6 +965,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "갈비",
         typeList: "mainSideDished",
+        sourceUrl: "",
         ingredients: [
             "구이용 LA갈비  2kg"
         ],
@@ -984,6 +1004,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "소스",
         typeList: "seasoningSauceJam",
+        sourceUrl: "",
         ingredients: [
             "가래떡"
         ],
@@ -1015,6 +1036,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "피클",
         typeList: "kimchiSaltedPaste",
+        sourceUrl: "",
         ingredients: [
             "무 한 개 (1.3kg 정도)",
             "베트남 고추 8개",
@@ -1042,6 +1064,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "장조림",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "소고기(홍두깨, 양지, 사태 모두 가능) 600g~1kg",
             "양파 1개",
@@ -1086,6 +1109,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "볶음",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "콩나물 2봉지 600g",
             "대파 1개",
@@ -1122,6 +1146,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "덮밥",
         typeList: "ricePorridgeRiceCake",
+        sourceUrl: "",
         ingredients: [
             "애호박 1개",
             "양파 반 개",
@@ -1158,6 +1183,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "조림",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "진미채 300g",
             "꽈리고추 400g"
@@ -1189,6 +1215,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "무침",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "노각 1.8kg(소금 2t, 설탕 2T, 식초 2T 절임)"
         ],
@@ -1222,6 +1249,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "간식",
         typeList: "dessert",
+        sourceUrl: "",
         ingredients: [
             "떡볶이 떡 500g",
             "대파 1개",
@@ -1251,6 +1279,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "볶음",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "얇은 어묵 300g",
             "대파 1개",
@@ -1290,6 +1319,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "생채",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "무 1.4kg(소금 1t, 설탕 2T)"
         ],
@@ -1322,6 +1352,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "겉절이",
         typeList: "kimchiSaltedPaste",
+        sourceUrl: "",
         ingredients: [
             "얄배추 2kg(소금 3T, 물 200ml)",
             "부추(쪽파) 100g"
@@ -1357,6 +1388,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "소스",
         typeList: "seasoningSauceJam",
+        sourceUrl: "",
         ingredients: [
             "굵은 대파 흰 대만 2개"
         ],
@@ -1378,6 +1410,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "소스",
         typeList: "seasoningSauceJam",
+        sourceUrl: "",
         ingredients: [
             "다진 마늘 100g",
             "고추기름 300ml",
@@ -1407,6 +1440,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "찌개",
         typeList: "krstew",
+        sourceUrl: "",
         ingredients: [
             "순두부 2봉",
             "육수(멸치, 다시마 우린 물) 200ml(1봉 100ml)"
@@ -1430,6 +1464,7 @@ export const recipes: Recipe[] = [
         chef: "조샘→마카롱여사",
         category: "석박지",
         typeList: "kimchiSaltedPaste",
+        sourceUrl: "",
         ingredients: [
             "무 4kg(설탕 2T, 꽃소금 2T)",
             "쪽파 200g"
@@ -1472,6 +1507,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "김치",
         typeList: "kimchiSaltedPaste",
+        sourceUrl: "",
         ingredients: [
             "배추 3kg 1포기(물 1리터, 소금 200ml)",
             "육수(다시마 손바닥 크기 한 장, 멸치 한 줌, 건새우 2T, 물 500ml)",
@@ -1516,6 +1552,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "볶음",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "어묵 400g",
             "쪽파 2~3개",
@@ -1551,6 +1588,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "조림",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "우엉 400g~500g"
         ],
@@ -1583,6 +1621,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "밑반찬",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "자른 당면 300g",
             "부추 한 줌",
@@ -1619,6 +1658,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "튀김",
         typeList: "dessert",
+        sourceUrl: "",
         ingredients: [
             "윙 또는 닭봉 500~600g",
             "연근",
@@ -1655,6 +1695,7 @@ export const recipes: Recipe[] = [
         chef: "지호할매→마카롱여사",
         category: "물김치",
         typeList: "kimchiSaltedPaste",
+        sourceUrl: "",
         ingredients: [
             "알 배추 900g~1kg",
             "오이 3개",
@@ -1699,6 +1740,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "무침",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "불린 궁채 400g",
             "황설탕 2T",
@@ -1730,6 +1772,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "겉절이",
         typeList: "kimchiSaltedPaste",
+        sourceUrl: "",
         ingredients: [
             "섬초 200g"
         ],
@@ -1754,6 +1797,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "나물",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "포항초 200g"
         ],
@@ -1776,6 +1820,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "볶음",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "베이비브로콜리 400g"
         ],
@@ -1799,6 +1844,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "볶음",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "굵은 새송이버섯 5~6개"
         ],
@@ -1823,6 +1869,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "볶음",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "돼지 뒷다리살 600g",
             "다진 대파 1개",
@@ -1860,6 +1907,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "무침",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "생굴 450g",
             "무 340g(설탕 1T, 소금 1t, 식초 2T)",
@@ -1894,6 +1942,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "전",
         typeList: "pancake",
+        sourceUrl: "",
         ingredients: [
             "생굴 350g",
             "미나리 60g",
@@ -1920,6 +1969,7 @@ export const recipes: Recipe[] = [
         chef: "명란샘→마카롱여사",
         category: "소스",
         typeList: "seasoningSauceJam",
+        sourceUrl: "",
         ingredients: [
             "샘표 양조간장 501 또는 701 2L",
             "설탕 900g",
@@ -1956,6 +2006,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "소스",
         typeList: "seasoningSauceJam",
+        sourceUrl: "",
         ingredients: [
             "생강 200g",
             "백화수복 500ml"
@@ -1979,6 +2030,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "소스",
         typeList: "seasoningSauceJam",
+        sourceUrl: "",
         ingredients: [
             "육수(마른표고 10개, 다시마 30cm, 물 1L)",
             "손질한 훈제멸치 50g(내장 제거) 또는 가쓰오부시 50g",
@@ -2014,6 +2066,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "피클",
         typeList: "kimchiSaltedPaste",
+        sourceUrl: "",
         ingredients: [
             "콜라비 2개",
             "청양고추 5개"
@@ -2043,6 +2096,7 @@ export const recipes: Recipe[] = [
         chef: "명란샘→마카롱여사",
         category: "무침",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "말린무 120g",
             "쪽파 5줄기",
@@ -2076,6 +2130,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "나물",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "무 500g",
             "쪽파 취향껏 조금"
@@ -2104,6 +2159,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "무침",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "마늘쫑 400g"
         ],
@@ -2133,6 +2189,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "조림",
         typeList: "krSoup",
+        sourceUrl: "",
         ingredients: [
             "고등어 2마리(갈치 1마리 / 병어 5마리 / 가자미 2마리 / 코다리)",
             "감자 큰 거 3개",
@@ -2170,6 +2227,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "조림",
         typeList: "krSoup",
+        sourceUrl: "",
         ingredients: [
             "고등어 2마리",
             "양파 반개",
@@ -2207,6 +2265,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "무침",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "껍질 벗긴 고구마 줄기 840g(물 600ml, 소금 1t)"
         ],
@@ -2239,6 +2298,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "찌개",
         typeList: "krstew",
+        sourceUrl: "",
         ingredients: [
             "조갯살 250g",
             "감자 3개",
@@ -2270,6 +2330,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "볶음",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "어묵 460g(어육 함량 높은 것)",
             "양파 1개",
@@ -2301,6 +2362,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "볶음",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "진미채 150g(마요네즈 2T)"
         ],
@@ -2332,6 +2394,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "볶음",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "잔멸치 150g",
             "호두 150g"
@@ -2367,6 +2430,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "볶음",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "잔멸치 150g"
         ],
@@ -2396,6 +2460,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "찌개",
         typeList: "krstew",
+        sourceUrl: "",
         ingredients: [
             "소고기 양지 600g(치마양지)",
             "물 4리터",
@@ -2436,6 +2501,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "탕",
         typeList: "krSoup",
+        sourceUrl: "",
         ingredients: [
             "명태알 250g",
             "대구 곤이 250g",
@@ -2470,6 +2536,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "무침",
         typeList: "sideDished",
+        sourceUrl: "",
         ingredients: [
             "물파래 200g",
             "달래 100g"
@@ -2501,6 +2568,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "국",
         typeList: "krSoup",
+        sourceUrl: "",
         ingredients: [
             "청국장 220g",
             "두부 반 모 200g",
@@ -2539,6 +2607,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "찌개",
         typeList: "krstew",
+        sourceUrl: "",
         ingredients: [
             "감자 큰 거 2개",
             "양파 1개",
@@ -2574,6 +2643,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "전",
         typeList: "pancake",
+        sourceUrl: "",
         ingredients: [
             "간 돼지고기 1~1.2kg",
             "양파 중간 크기 반 개",
@@ -2611,6 +2681,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "샐러드",
         typeList: "salad",
+        sourceUrl: "",
         ingredients: [
             "닭가슴살 300g (소금, 후추, 물 700ml)",
             "로메인 70g",
@@ -2641,6 +2712,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "샐러드",
         typeList: "salad",
+        sourceUrl: "",
         ingredients: [
             "양배추 400g",
             "빨간 파프리카 1개",
@@ -2674,6 +2746,7 @@ export const recipes: Recipe[] = [
         chef: "day_momtable",
         category: "양념",
         typeList: "seasoningSauceJam",
+        sourceUrl: "",
         ingredients: [
             "",
             ""
@@ -2697,6 +2770,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "재료",
         typeList: "seasoningSauceJam",
+        sourceUrl: "",
         ingredients: [
             "방울토마토(대추방울이 사용) 1kg",
             ""
@@ -2722,6 +2796,7 @@ export const recipes: Recipe[] = [
         chef: "마카롱여사",
         category: "페스토",
         typeList: "seasoningSauceJam",
+        sourceUrl: "",
         ingredients: [
             "바질 300g",
             "구운 헤이즐넛 200g(아몬드, 잣)",
