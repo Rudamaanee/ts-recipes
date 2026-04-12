@@ -9,13 +9,16 @@ type Props = {
   };
 };
 
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function RecipeCard({ recipe }: Props) {
   const navigate = useNavigate();
   const imageSrc = recipe.imgUrl?.trim()
-    ? import.meta.env.BASE_URL +  recipe.imgUrl
-    : import.meta.env.BASE_URL + "images/sample.png";
+  ? import.meta.env.BASE_URL + recipe.imgUrl
+  : import.meta.env.BASE_URL + "images/sample.png";
+
+  const [imgSrc, setImgSrc] = useState(imageSrc);
   return (
     <div
       className="recipe-card"
