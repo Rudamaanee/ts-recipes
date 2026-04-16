@@ -10,7 +10,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "오이 깍두기",
         chef: "마카롱여사",
-        category: "깍두기",
+        categoryId: 1,
+        tag: ["깍두기", "무"],
         imgUrl: "images/cucumberRadishKimchi.png",
         videoUrl: "https://www.youtube.com/watch?v=4SFJJ0nkJy4",
         sourceUrl: "https://www.instagram.com/reel/Crmai5dtlnN/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
@@ -44,12 +45,14 @@ export const recipes: Recipe[] = [
     }),
     createRecipe({
         title: "오이탕탕이",
-        chef: "김가연→마카롱여사",
-        category: "밑반찬",
+        chef: "마카롱여사",
+        categoryId: 2,
+        tag: ["오이"],
         imgUrl: "images/threeCucumber1.png",
         videoUrl: "https://youtu.be/J2vm6oeYP7Q?si=gYPH4MYfEWKbm3j4",
         sourceUrl: "https://www.instagram.com/reel/CsUkzTUNUUT/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA===",
         ingredients: [
+            "by 김가연",
             "오이 2개",
             "짜지 않은 소금 1t",
             "3배 식초 2t",
@@ -65,8 +68,9 @@ export const recipes: Recipe[] = [
     }),
     createRecipe({
         title: "오이무침",
-        chef: "조샘→마카롱여사",
-        category: "무침",
+        chef: "마카롱여사",
+        categoryId: 2,
+        tag: ["무침", "오이"],
         imgUrl: "images/threeCucumber2.png",
         videoUrl: "https://www.youtube.com/watch?v=J2vm6oeYP7Q",
         sourceUrl: "https://www.instagram.com/reel/CsUkzTUNUUT/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
@@ -81,6 +85,7 @@ export const recipes: Recipe[] = [
             "참기름 한방울"
         ],
         steps: [
+            "by 조샘",
             "오이는 깨끗이 씻어 얇게 어슷하게 썰어 준다.",
             "소금 2t, 설탕 2T, 식초 2T 버무려 30분 정도 절인다.",
             "마늘 1t, 파 1T 다진다.",
@@ -91,7 +96,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "초간단 오이냉국 [27461]",
         chef: "마카롱여사",
-        category: "냉국",
+        categoryId: 4,
+        tag: ["국물요리", "오이"],
         imgUrl: "images/threeCucumber3.png",
         videoUrl: "https://www.youtube.com/watch?v=J2vm6oeYP7Q",
         sourceUrl: "https://www.instagram.com/reel/CsUkzTUNUUT/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
@@ -115,7 +121,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "갈치조림",
         chef: "마카롱여사",
-        category: "조림",
+        categoryId: 4,
+        tag: ["조림", "갈치"],
         imgUrl: "images/braisedCutlassfish.png",
         videoUrl: "https://www.youtube.com/watch?v=KPKSZeUmSg0",
         sourceUrl: "https://www.instagram.com/reel/CsIuZHWtccW/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
@@ -153,7 +160,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "양념꽃게 무침",
         chef: "마카롱여사",
-        category: "무침",
+        categoryId: 2,
+        tag: ["무침", "꽃게"],
         imgUrl: "images/seasonedCrab.png",
         videoUrl: "https://www.youtube.com/watch?v=s0o9o7327_U",
         sourceUrl: "https://www.instagram.com/reel/CqeWLSQMRzi/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
@@ -196,7 +204,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "닭갈비",
         chef: "마카롱여사",
-        category: "메인반찬",
+        categoryId: 3,
+        tag: ["닭", ""],
         imgUrl: "images/spicyGrilledChicken.png",
         videoUrl: "https://www.youtube.com/watch?v=_shKymtRGTQ",
         sourceUrl: "https://www.instagram.com/reel/CqJfsoQtIXZ/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
@@ -239,7 +248,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "순대볶음",
         chef: "마카롱여사",
-        category: "볶음",
+        categoryId: 3,
+        tag: ["볶음", "순대"],
         imgUrl: "images/stirFriedKoreanSausage.png",
         videoUrl: "https://www.youtube.com/watch?v=D0hQ8Vj55Hk",
         sourceUrl: "https://www.instagram.com/reel/CqCzlhtp3sE/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
@@ -281,7 +291,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "쪽파김치",
         chef: "마카롱여사",
-        category: "김치",
+        categoryId: 1,
+        tag: ["쪽파", ""],
         imgUrl: "images/greenOnionKimchi.png",
         videoUrl: "https://www.youtube.com/watch?v=WIrG9FzlVsk",
         sourceUrl: "https://www.instagram.com/reel/CpHx47iLRZR/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
@@ -312,7 +323,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "오이 맛살 냉채",
         chef: "마카롱여사",
-        category: "냉채",
+        categoryId: 2,
+        tag: ["냉채", "오이", "맛살"],
         imgUrl: "images/cucumberCrabColdSalad.png",
         videoUrl: "https://www.youtube.com/watch?v=xEzkldngttU",
         sourceUrl: "",
@@ -340,7 +352,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "오이샌드위치",
         chef: "마카롱여사",
-        category: "샌드위치",
+        categoryId: 9,
+        tag: ["샌드위치", "오이"],
         imgUrl: "images/cucumberSandwich.png",
         videoUrl: "https://www.youtube.com/watch?v=xEzkldngttU",
         sourceUrl: "",
@@ -358,9 +371,10 @@ export const recipes: Recipe[] = [
         ]
     }),
     createRecipe({
-        title: "햇마늘 장아찌 레시피",
+        title: "햇마늘 장아찌",
         chef: "마카롱여사",
-        category: "장아찌",
+        categoryId: 1,
+        tag: ["장아찌", "마늘"],
         imgUrl: "images/pickledGarlic.png",
         videoUrl: "https://www.youtube.com/watch?v=zoOoYKs2VKk",
         sourceUrl: "",
@@ -392,8 +406,9 @@ export const recipes: Recipe[] = [
     }),
     createRecipe({
         title: "물 없이 만드는 오이지 ",
-        chef: "이보은 샘→마카롱여사",
-        category: "장아찌",
+        chef: "마카롱여사",
+        categoryId: 1,
+        tag: ["오이지", ""],
         imgUrl: "images/cucumbersPickled.png",
         videoUrl: "https://www.youtube.com/watch?v=kHnDmmczUes",
         sourceUrl: "",
@@ -408,6 +423,7 @@ export const recipes: Recipe[] = [
             "소주 한병 350ml"
         ],
         steps: [
+            "by 이보은 샘",
             "백오이 50개는 흐르는 물에 깨끗하게 씻어 준다.",
             "설탕 900g, 소금(천일염) 450g 썩어 준다.",
             "통에 오이를 차곡차곡 올리고 소금 설탕 뿌려 준다. 오이 중간중간 소금과 설탕을 섞어 뿌려 주면 좋다.",
@@ -420,7 +436,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "오이지 무침 ",
         chef: "마카롱여사",
-        category: "무침",
+        categoryId: 2,
+        tag: ["무침", "오이"],
         imgUrl: "images/cucumbersPickledSeasoned-.png",
         videoUrl: "https://www.youtube.com/watch?v=kHnDmmczUes",
         sourceUrl: "",
@@ -443,7 +460,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "그린파파야 장아찌",
         chef: "마카롱여사",
-        category: "장아찌",
+        categoryId: 1,
+        tag: ["장아찌", "그린파파야"],
         imgUrl: "images/greenPapayaPickled.png",
         videoUrl: "https://www.youtube.com/watch?v=E7XG6iL2RP8",
         sourceUrl: "",
@@ -473,7 +491,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "쏨땀 샐러드",
         chef: "마카롱여사",
-        category: "샐러드",
+        categoryId: 9,
+        tag: ["사이드", "쏨땀"],
         imgUrl: "images/somtamSalad.png",
         videoUrl: "https://www.youtube.com/watch?v=E7XG6iL2RP8",
         sourceUrl: "",
@@ -507,7 +526,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "구운 쥐포조림",
         chef: "마카롱여사",
-        category: "조림",
+        categoryId: 2,
+        tag: ["조림", "쥐포"],
         imgUrl: "images/braisedDriedFilefishFillet.png",
         videoUrl: "https://www.youtube.com/watch?v=MmsWmQCKYxE",
         sourceUrl: "",
@@ -537,7 +557,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "달걀장",
         chef: "마카롱여사",
-        category: "장조림",
+        categoryId: 1,
+        tag: ["달걀", ""],
         imgUrl: "images/braisedEggs.png",
         videoUrl: "https://www.youtube.com/watch?v=BbFDtk3IdmE",
         sourceUrl: "",
@@ -570,8 +591,9 @@ export const recipes: Recipe[] = [
     }),
     createRecipe({
         title: "대패삼겹 숯불갈비맛",
-        chef: "쭈야공님→마카롱여사",
-        category: "메인반찬",
+        chef: "마카롱여사",
+        categoryId: 2,
+        tag: ["삼겹살", "갈비"],
         imgUrl: "images/porkBellyGrilledRibs.png",
         videoUrl: "https://www.youtube.com/watch?v=pFhhQKK1VHo",
         sourceUrl: "",
@@ -588,6 +610,7 @@ export const recipes: Recipe[] = [
             "참기름 1T"
         ],
         steps: [
+            "by 쭈야공님",
             "냉동 대패삼겹살 600g, 설탕 2T, 간장 3T, 미림 0.5T, 참기름 1T 밑간해 준다.",
             "쪽파 한 줌 송송 썰어 준다.",
             "마늘 1.5T 다져 준다.",
@@ -604,7 +627,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "냉이장아찌",
         chef: "마카롱여사",
-        category: "장아찌",
+        categoryId: 1,
+        tag: ["장아찌", "냉이"],
         imgUrl: "images/pickledShepherdsPurse.png",
         videoUrl: "https://www.youtube.com/watch?v=fUtyixuH98g",
         sourceUrl: "",
@@ -629,7 +653,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "미나리 불고기전",
         chef: "마카롱여사",
-        category: "전",
+        categoryId: 2,
+        tag: ["전", "미나리"],
         imgUrl: "images/waterParsleyBulgogiPancake.png",
         videoUrl: "https://www.youtube.com/watch?v=fUtyixuH98g",
         sourceUrl: "",
@@ -658,7 +683,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "닭볶음탕",
         chef: "마카롱여사",
-        category: "탕",
+        categoryId: 4,
+        tag: ["볶음탕", "닭"],
         imgUrl: "images/braisedSpicyChicken.png",
         videoUrl: "https://www.youtube.com/watch?v=HEwCSy-XQpw",
         sourceUrl: "",
@@ -696,7 +722,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "황태포볶음",
         chef: "마카롱여사",
-        category: "볶음",
+        categoryId: 2,
+        tag: ["볶음", "황태포"],
         imgUrl: "images/Stir-friedDriedPollack.png",
         videoUrl: "https://www.youtube.com/watch?v=WHbIaTGG_0k",
         sourceUrl: "",
@@ -727,7 +754,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "콩나물파채무침",
         chef: "마카롱여사",
-        category: "무침",
+        categoryId: 2,
+        tag: ["무침", "콩나물", "파채"],
         imgUrl: "images/beanSproutSeasonedScallions.png",
         videoUrl: "https://www.youtube.com/watch?v=91OqBZnx_7w",
         sourceUrl: "",
@@ -761,7 +789,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "버섯해물전 ",
         chef: "마카롱여사",
-        category: "전",
+        categoryId: 2,
+        tag: ["전", "버섯", "해물"],
         imgUrl: "images/mushroomSeafoodPancake.png",
         videoUrl: "https://www.youtube.com/watch?v=bR9njEt2H6o",
         sourceUrl: "",
@@ -793,7 +822,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "무조림",
         chef: "마카롱여사",
-        category: "조림",
+        categoryId: 2,
+        tag: ["조림", "무"],
         imgUrl: "images/braisedRadish.png",
         videoUrl: "https://www.youtube.com/watch?v=jbtF0njUcJ0",
         sourceUrl: "",
@@ -831,7 +861,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "오징어볶음",
         chef: "마카롱여사",
-        category: "볶음",
+        categoryId: 2,
+        tag: ["볶음", "오징어"],
         imgUrl: "images/stir-friedSquid.png",
         videoUrl: "https://www.youtube.com/watch?v=-btAib3PVEU",
         sourceUrl: "",
@@ -867,7 +898,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "스테이크 두부조림",
         chef: "마카롱여사",
-        category: "조림",
+        categoryId: 2,
+        tag: ["조림", "두부", "스테이크"],
         imgUrl: "images/steakBraisedTofu.png",
         videoUrl: "https://www.youtube.com/watch?v=SWARvTrxBbQ",
         sourceUrl: "",
@@ -909,7 +941,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "LA 갈비",
         chef: "마카롱여사",
-        category: "갈비",
+        categoryId: 3,
+        tag: ["갈비", ""],
         imgUrl: "images/LALibs.png",
         videoUrl: "https://www.youtube.com/watch?v=I_8LK-FlbeM",
         sourceUrl: "",
@@ -946,7 +979,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "떡꼬치 소스",
         chef: "마카롱여사",
-        category: "소스",
+        categoryId: 7,
+        tag: ["떡", ""],
         imgUrl: "images/riceCakeSkewer.png",
         videoUrl: "https://www.youtube.com/watch?v=SDt8I0V7BdY",
         sourceUrl: "",
@@ -976,7 +1010,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "유자향 무피클",
         chef: "마카롱여사",
-        category: "피클",
+        categoryId: 1,
+        tag: ["피클", "무"],
         imgUrl: "images/citronWhiteRadishPickle.png",
         videoUrl: "https://www.youtube.com/watch?v=BkgrXgJVAXk",
         sourceUrl: "",
@@ -1002,7 +1037,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "소고기 장조림",
         chef: "마카롱여사",
-        category: "장조림",
+        categoryId: 2,
+        tag: ["장조림", "소고기"],
         imgUrl: "images/jangjorim.png",
         videoUrl: "https://www.youtube.com/watch?v=j4VHEjTcR_k",
         sourceUrl: "",
@@ -1045,7 +1081,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "콩나물 볶음",
         chef: "마카롱여사",
-        category: "볶음",
+        categoryId: 2,
+        tag: ["볶음", "콩나물"],
         imgUrl: "images/stir-friedBeanSprout.png",
         videoUrl: "https://www.youtube.com/watch?v=KuORt1cH7eM",
         sourceUrl: "",
@@ -1080,7 +1117,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "애호박덮밥",
         chef: "마카롱여사",
-        category: "덮밥",
+        categoryId: 2,
+        tag: ["밥류", ""],
         imgUrl: "images/riceWithZucchini.png",
         videoUrl: "https://www.youtube.com/watch?v=CBRElNhEV1w",
         sourceUrl: "",
@@ -1115,7 +1153,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "진미채 꿀 꽈리고추 간장조림",
         chef: "마카롱여사",
-        category: "조림",
+        categoryId: 2,
+        tag: ["조림", "진미채", "꽈리고추"],
         imgUrl: "images/DriedSquidChiliPeppersBoiledInSoySauce.png",
         videoUrl: "https://www.youtube.com/watch?v=qYb5c2QJit8",
         sourceUrl: "",
@@ -1145,7 +1184,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "노각무침",
         chef: "마카롱여사",
-        category: "무침",
+        categoryId: 2,
+        tag: ["무침", "노각"],
         imgUrl: "images/yellowishOverripeCucumberSalad.png",
         videoUrl: "https://www.youtube.com/watch?v=ozqfSjyWY64",
         sourceUrl: "",
@@ -1177,7 +1217,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "토마토소스 떡볶이",
         chef: "마카롱여사",
-        category: "간식",
+        categoryId: 9,
+        tag: ["떡뽁이", "토마토"],
         imgUrl: "images/tteokbokkiWithTomatoSauce.png",
         videoUrl: "https://www.youtube.com/watch?v=gWWwYIHQ6EI",
         sourceUrl: "",
@@ -1205,7 +1246,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "어묵볶음(간장맛)",
         chef: "마카롱여사",
-        category: "볶음",
+        categoryId: 2,
+        tag: ["볶음", "어묵"],
         imgUrl: "images/stir-friedFishCakeWithSoySauce.png",
         videoUrl: "https://www.youtube.com/watch?v=UMnRrXhaRnQ",
         sourceUrl: "",
@@ -1243,7 +1285,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "무생채",
         chef: "마카롱여사",
-        category: "생채",
+        categoryId: 1,
+        tag: ["생채", "무"],
         imgUrl: "images/shreddedDaikon.png",
         videoUrl: "https://www.youtube.com/watch?v=4FWNdQI4G9M",
         sourceUrl: "",
@@ -1272,9 +1315,10 @@ export const recipes: Recipe[] = [
         ]
     }),
     createRecipe({
-        title: "알 배추 겉절이",
+        title: "알배추 겉절이",
         chef: "마카롱여사",
-        category: "겉절이",
+        categoryId: 1,
+        tag: ["겉절이", "알배추"],
         imgUrl: "images/freshCabbageKimchi.png",
         videoUrl: "https://www.youtube.com/watch?v=vnhPD2Bn2L4",
         sourceUrl: "",
@@ -1308,7 +1352,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "고추기름",
         chef: "마카롱여사",
-        category: "소스",
+        categoryId: 7,
+        tag: ["소스", "고추"],
         imgUrl: "images/chiliOil.png",
         videoUrl: "https://www.youtube.com/watch?v=s1cwvnQgHB8",
         sourceUrl: "",
@@ -1328,7 +1373,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "순두부 페이스트",
         chef: "마카롱여사",
-        category: "소스",
+        categoryId: 7,
+        tag: ["페이스트", ""],
         imgUrl: "images/softTofuPaste.png",
         videoUrl: "https://www.youtube.com/watch?v=s1cwvnQgHB8",
         sourceUrl: "",
@@ -1356,7 +1402,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "순두부 찌개",
         chef: "마카롱여사",
-        category: "찌개",
+        categoryId: 4,
+        tag: ["찌개", "순두부"],
         imgUrl: "images/softTofuKrStew.png",
         videoUrl: "https://www.youtube.com/watch?v=s1cwvnQgHB8",
         sourceUrl: "",
@@ -1377,8 +1424,9 @@ export const recipes: Recipe[] = [
     }),
     createRecipe({
         title: "설렁탕집 석박지",
-        chef: "조샘→마카롱여사",
-        category: "석박지",
+        chef: "마카롱여사",
+        categoryId: 1,
+        tag: ["석박지", ""],
         imgUrl: "images/sheetOfStone.png",
         videoUrl: "https://www.youtube.com/watch?v=Mt2izRHPZME",
         sourceUrl: "",
@@ -1402,6 +1450,7 @@ export const recipes: Recipe[] = [
             "통깨 적당히"
         ],
         steps: [
+            "by 조샘",
             "무는 깨끗이 씻어 지저분한 데는 채칼로 다듬어 준다.",
             "납작납작하게 일정한 두께로 썰어 준다.",
             "큰 볼에 무를 담고 설탕 2T, 소금 2T 뿌려 조물조물 해 준다. 2시간 정도 절여 준다.",
@@ -1419,7 +1468,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "맛김치",
         chef: "마카롱여사",
-        category: "김치",
+        categoryId: 1,
+        tag: ["김치", ""],
         imgUrl: "images/deliciousKimchi.png",
         videoUrl: "https://www.youtube.com/watch?v=XA_gGywv0OA",
         sourceUrl: "",
@@ -1462,7 +1512,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "매운어묵볶음",
         chef: "마카롱여사",
-        category: "볶음",
+        categoryId: 2,
+        tag: ["볶음", "어묵"],
         imgUrl: "images/spicyStir-friedFishCake.png",
         videoUrl: "https://www.youtube.com/watch?v=yLKtybFuRpI",
         sourceUrl: "",
@@ -1496,7 +1547,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "우엉조림",
         chef: "마카롱여사",
-        category: "조림",
+        categoryId: 2,
+        tag: ["조림", "우엉"],
         imgUrl: "images/braisedBurdock.png",
         videoUrl: "https://www.youtube.com/watch?v=yLKtybFuRpI",
         sourceUrl: "",
@@ -1527,7 +1579,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "잡채",
         chef: "마카롱여사",
-        category: "밑반찬",
+        categoryId: 2,
+        tag: ["잡채", ""],
         imgUrl: "images/Japchae.png",
         videoUrl: "https://www.youtube.com/watch?v=joey-y1aHqg",
         sourceUrl: "",
@@ -1562,7 +1615,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "간장 양념 닭튀김",
         chef: "마카롱여사",
-        category: "튀김",
+        categoryId: 9,
+        tag: ["튀김", "닭"],
         imgUrl: "images/friedChickenWithSoySauce.png",
         videoUrl: "https://www.youtube.com/watch?v=r25LYNT7LEw",
         sourceUrl: "",
@@ -1596,8 +1650,9 @@ export const recipes: Recipe[] = [
     }),
     createRecipe({
         title: "톡쏘는 물김치",
-        chef: "지호할매→마카롱여사",
-        category: "물김치",
+        chef: "마카롱여사",
+        categoryId: 2,
+        tag: ["물김치", ""],
         imgUrl: "images/kimchiWithWater.png",
         videoUrl: "https://www.youtube.com/watch?v=-ZADLipMxZM",
         sourceUrl: "",
@@ -1620,6 +1675,7 @@ export const recipes: Recipe[] = [
             "뉴수가 1t(청정원 그린스위트)"
         ],
         steps: [
+            "by 지호할매",
             "알 배추는 한 장씩 뜯어 흐르는 물에 씻어 물기 빼 준다.",
             "물기 제거한 알 배추는 반 잘라 줄기와 잎을 적당한 크기로 자른다.",
             "오이 3개 반 잘라 가운데 씨 부분을 도려내고 어슷 썰어 준다. 물결 칼을 사용해도 좋다.",
@@ -1640,7 +1696,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "궁채무침",
         chef: "마카롱여사",
-        category: "무침",
+        categoryId: 2,
+        tag: ["무침", "궁채"],
         imgUrl: "images/seasonedCeltuce.png",
         videoUrl: "https://www.youtube.com/watch?v=jcuBDVFWSo8",
         sourceUrl: "",
@@ -1670,7 +1727,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "시금치 겉절이",
         chef: "마카롱여사",
-        category: "겉절이",
+        categoryId: 2,
+        tag: ["겉절이", "시금치"],
         imgUrl: "images/freshSpinach.png",
         videoUrl: "https://www.youtube.com/watch?v=rvYR8FbVn18",
         sourceUrl: "",
@@ -1693,7 +1751,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "시금치 나물",
         chef: "마카롱여사",
-        category: "나물",
+        categoryId: 2,
+        tag: ["나물", "시금치"],
         imgUrl: "images/spinachSalad.png",
         videoUrl: "https://www.youtube.com/watch?v=rvYR8FbVn18",
         sourceUrl: "",
@@ -1714,7 +1773,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "브로콜리 볶음",
         chef: "마카롱여사",
-        category: "볶음",
+        categoryId: 2,
+        tag: ["볶음", "브로콜리"],
         imgUrl: "images/broccoliGreens.png",
         videoUrl: "https://www.youtube.com/watch?v=vQbBAT6LhI0",
         sourceUrl: "",
@@ -1736,7 +1796,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "새송이버섯볶음",
         chef: "마카롱여사",
-        category: "볶음",
+        categoryId: 2,
+        tag: ["볶음", "새송이"],
         imgUrl: "images/stir-friedPineMushrooms.png",
         videoUrl: "https://www.youtube.com/watch?v=vQbBAT6LhI0",
         sourceUrl: "",
@@ -1759,7 +1820,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "제육볶음",
         chef: "마카롱여사",
-        category: "볶음",
+        categoryId: 2,
+        tag: ["볶음", "제육"],
         imgUrl: "images/stir-friedSpicyPork.png",
         videoUrl: "https://www.youtube.com/watch?v=T4JPNEm3MJw",
         sourceUrl: "",
@@ -1795,7 +1857,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "굴무침",
         chef: "마카롱여사",
-        category: "무침",
+        categoryId: 2,
+        tag: ["무침", "굴"],
         imgUrl: "images/seasonedOysters.png",
         videoUrl: "https://www.youtube.com/watch?v=BjNHAzikLag",
         sourceUrl: "",
@@ -1828,7 +1891,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "굴전",
         chef: "마카롱여사",
-        category: "전",
+        categoryId: 9,
+        tag: ["전", "굴"],
         imgUrl: "images/oysterPancake.png",
         videoUrl: "https://www.youtube.com/watch?v=BjNHAzikLag",
         sourceUrl: "",
@@ -1852,8 +1916,9 @@ export const recipes: Recipe[] = [
     }),
     createRecipe({
         title: "맛간장",
-        chef: "명란샘→마카롱여사",
-        category: "소스",
+        chef: "마카롱여사",
+        categoryId: 3,
+        tag: ["소스", ""],
         imgUrl: "images/flavoredSoySauce.png",
         videoUrl: "https://www.youtube.com/watch?v=AeqVDlf7Gro",
         sourceUrl: "",
@@ -1878,6 +1943,7 @@ export const recipes: Recipe[] = [
             "얇게 썬 레몬 1개"
         ],
         steps: [
+            "by 명란샘",
             "채소 육수 재료 모두 바닥이 두꺼운 냄비에 넣고 뚜껑을 덮고 약불로 은근히 25분 정도 졸여서 체에 밭친다. (완성된 채소 육수 250~300cc 나와야 함)",
             "냄비에 채소 육수 250cc, 샘표 701 간장, 설탕, 맛술, 청주, 건고추, 건표고버섯, 다시마를 넣고 50분 끓인다. (처음에 강불. 끓어오르면 약불로 줄이고 뚜껑을 덮는다)",
             "2번이 완성되면 썰어놓은 사과와 레몬을 넣어 뚜껑을 덮고 5분 후 불을 끈다.",
@@ -1888,7 +1954,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "생강술",
         chef: "마카롱여사",
-        category: "소스",
+        categoryId: 7,
+        tag: ["소스", "생강술"],
         imgUrl: "images/gingerLiquor.png",
         videoUrl: "https://www.youtube.com/watch?v=kZ_97Xfqw2A",
         sourceUrl: "",
@@ -1910,7 +1977,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "쯔유",
         chef: "마카롱여사",
-        category: "소스",
+        categoryId: 7,
+        tag: ["소스", "쯔유"],
         imgUrl: "images/tzuyu.png",
         videoUrl: "https://www.youtube.com/watch?v=xrXJPY9ZB30",
         sourceUrl: "",
@@ -1944,7 +2012,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "콜라비 피클",
         chef: "마카롱여사",
-        category: "피클",
+        categoryId: 1,
+        tag: ["피클", "콜라비"],
         imgUrl: "images/ColabiPickles.png",
         videoUrl: "https://www.youtube.com/watch?v=48UFXiq7dSc",
         sourceUrl: "",
@@ -1971,8 +2040,9 @@ export const recipes: Recipe[] = [
     }),
     createRecipe({
         title: "무말랭이무침",
-        chef: "명란샘→마카롱여사",
-        category: "무침",
+        chef: "마카롱여사",
+        categoryId: 2,
+        tag: ["무침", "무말랭이"],
         imgUrl: "images/driedRadishSalad.png",
         videoUrl: "https://www.youtube.com/watch?v=UtaafNfhTtQ",
         sourceUrl: "",
@@ -1993,6 +2063,7 @@ export const recipes: Recipe[] = [
             "육수 100ml"
         ],
         steps: [
+            "by 명란샘",
             "말린 무는 약간 뜨거운 물을 부어 간장1T, 설탕 1T 넣어 15분 이상 불리면 냄새없이 좋다.",
             "물에 오래 담그면 무 맛있는 맛이 모두 빠진다. 살짝만 담궈 가볍게 씻어 준다.",
             "깨끗히 씻은 무는 면보에 꽉 짜 준다. 수분을 완전하게 제거한다.",
@@ -2004,7 +2075,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "가을 무나물",
         chef: "마카롱여사",
-        category: "나물",
+        categoryId: 2,
+        tag: ["나물", "무"],
         imgUrl: "images/radishGreens.png",
         videoUrl: "https://www.youtube.com/watch?v=qDJWOm7SwLI",
         sourceUrl: "",
@@ -2031,7 +2103,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "마늘쫑무침",
         chef: "마카롱여사",
-        category: "무침",
+        categoryId: 2,
+        tag: ["무침", "마늘쫑"],
         imgUrl: "images/seasonedGarlicStems.png",
         videoUrl: "https://www.youtube.com/watch?v=Q_kWeNysck8",
         sourceUrl: "",
@@ -2059,7 +2132,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "고등어조림",
         chef: "마카롱여사",
-        category: "조림",
+        categoryId: 2,
+        tag: ["조림", "고등어"],
         imgUrl: "images/braisedMackerel.png",
         videoUrl: "https://www.youtube.com/watch?v=vvm9XJEwnHc",
         sourceUrl: "",
@@ -2095,7 +2169,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "고등어 양념조림",
         chef: "마카롱여사",
-        category: "조림",
+        categoryId: 2,
+        tag: ["조림", "고등어"],
         imgUrl: "images/braisedMackerelWithSeasoning.png",
         videoUrl: "https://www.youtube.com/watch?v=NQvl6C63vOI",
         sourceUrl: "",
@@ -2131,7 +2206,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "고구마 줄기무침(새콤)",
         chef: "마카롱여사",
-        category: "무침",
+        categoryId: 2,
+        tag: ["무침", "고구마줄기"],
         imgUrl: "images/seasonedSweetPotatoStems.png",
         videoUrl: "https://www.youtube.com/watch?v=wr9IINn2Q50",
         sourceUrl: "",
@@ -2162,7 +2238,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "강된장",
         chef: "마카롱여사",
-        category: "찌개",
+        categoryId: 7,
+        tag: ["된장", ""],
         imgUrl: "images/redBeanPasteSauce.png",
         videoUrl: "https://www.youtube.com/watch?v=wr9IINn2Q50",
         sourceUrl: "",
@@ -2192,7 +2269,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "안 매운 어묵볶음",
         chef: "마카롱여사",
-        category: "볶음",
+        categoryId: 2,
+        tag: ["볶음", "어묵"],
         imgUrl: "images/non-spicyStir-friedFishCake.png",
         videoUrl: "https://www.youtube.com/watch?v=IYGExJORPx8",
         sourceUrl: "",
@@ -2222,7 +2300,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "진미채볶음",
         chef: "마카롱여사",
-        category: "볶음",
+        categoryId: 2,
+        tag: ["볶음", "진미채"],
         imgUrl: "images/stir-friedDriedSquid.png",
         videoUrl: "https://www.youtube.com/watch?v=9GBq9MM2jCc",
         sourceUrl: "",
@@ -2252,7 +2331,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "잔멸치호두볶음",
         chef: "마카롱여사",
-        category: "볶음",
+        categoryId: 2,
+        tag: ["볶음", "멸치", "호두"],
         imgUrl: "images/stir-friedAnchoviesWalnuts.png",
         videoUrl: "https://www.youtube.com/watch?v=E14ff1T8bqQ",
         sourceUrl: "",
@@ -2286,7 +2366,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "잔멸치볶음 (매움)",
         chef: "마카롱여사",
-        category: "볶음",
+        categoryId: 2,
+        tag: ["볶음", "멸치"],
         imgUrl: "images/stir-friedDriedAnchoviesHot.png",
         videoUrl: "https://www.youtube.com/watch?v=8ikbPoXrosU",
         sourceUrl: "",
@@ -2314,7 +2395,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "대파육개장",
         chef: "마카롱여사",
-        category: "찌개",
+        categoryId: 4,
+        tag: ["국물요리", "육개장"],
         imgUrl: "images/hotSpicyMeatStew.png",
         videoUrl: "https://www.youtube.com/watch?v=fGt0RLj5akQ",
         sourceUrl: "",
@@ -2353,7 +2435,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "알탕",
         chef: "마카롱여사",
-        category: "탕",
+        categoryId: 4,
+        tag: ["알탕", ""],
         imgUrl: "images/fishRoeSoup.png",
         videoUrl: "https://www.youtube.com/watch?v=gNr2E6BYIFQ",
         sourceUrl: "",
@@ -2386,7 +2469,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "달래파래무침",
         chef: "마카롱여사",
-        category: "무침",
+        categoryId: 2,
+        tag: ["무침", "달래", "파래"],
         imgUrl: "images/SeasonedWildChiveGreenLaver.png",
         videoUrl: "https://www.youtube.com/watch?v=00dJhdL5K-0",
         sourceUrl: "",
@@ -2416,7 +2500,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "청국장",
         chef: "마카롱여사",
-        category: "국",
+        categoryId: 4,
+        tag: ["국물요리", "청국장"],
         imgUrl: "images/bean-pasteSoup.png",
         videoUrl: "https://www.youtube.com/watch?v=pDRAexOV1Ac",
         sourceUrl: "",
@@ -2453,7 +2538,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "감자 참치 찌개",
         chef: "마카롱여사",
-        category: "찌개",
+        categoryId: 4,
+        tag: ["s", "감자", "참치"],
         imgUrl: "images/potatoTunaStew.png",
         videoUrl: "https://www.youtube.com/watch?v=Ezv9IjVQxGw",
         sourceUrl: "",
@@ -2487,7 +2573,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "동그랑땡",
         chef: "마카롱여사",
-        category: "전",
+        categoryId: 9,
+        tag: ["전", ""],
         imgUrl: "images/koreanStyleMeatball.png",
         videoUrl: "https://www.youtube.com/watch?v=vluRGMcE1Aw",
         sourceUrl: "",
@@ -2523,7 +2610,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "삶은 닭가슴살 샐러드 (534Kcal)",
         chef: "마카롱여사",
-        category: "샐러드",
+        categoryId: 9,
+        tag: ["사이드", "닭가슴살", "샐러드"],
         imgUrl: "images/boiledChickenBreastSalad.png",
         videoUrl: "https://www.youtube.com/watch?v=kEb1yUWbCvk",
         sourceUrl: "",
@@ -2552,7 +2640,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "KFC 코우슬로",
         chef: "마카롱여사",
-        category: "샐러드",
+        categoryId: 9,
+        tag: ["사이드", "코우슬로"],
         imgUrl: "images/kfcKawslow.png",
         videoUrl: "https://www.youtube.com/watch?v=6-V-jlLst4g",
         sourceUrl: "",
@@ -2584,7 +2673,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "비빔장",
         chef: "day_momtable",
-        category: "소스",
+        categoryId: 3,
+        tag: ["소스", ""],
         imgUrl: "images/CuVe8QhOVuZ.png",
         videoUrl: "https://www.instagram.com/reel/CuVe8QhOVuZ/?utm_source=ig_embed&amp;utm_campaign=loading",
         sourceUrl: "",
@@ -2605,7 +2695,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "썬드라이 토마토",
         chef: "마카롱여사",
-        category: "재료",
+        categoryId: 4,
+        tag: ["재료", ""],
         imgUrl: "images/sundryTomatoes.png",
         videoUrl: "https://www.youtube.com/watch?v=U0rGG74epp0?si=2Wr5WPxXoCL6fWEJ",
         sourceUrl: "",
@@ -2629,7 +2720,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "헤이즐넛 바질페스토",
         chef: "마카롱여사",
-        category: "페스토",
+        categoryId: 7,
+        tag: ["페스토", ""],
         imgUrl: "images/hazelnutBasilFesto.png",
         videoUrl: "https://www.youtube.com/watch?v=U0rGG74epp0?si=2Wr5WPxXoCL6fWEJ&amp;start=72",
         sourceUrl: "",
@@ -2656,7 +2748,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "야채 + 비빔 + 만두 = 야비만두",
         chef: "다름이네",
-        category: "간식",
+        categoryId: 9,
+        tag: ["만두", ""],
         imgUrl: "images/DOIf-9VEh2P.png",
         videoUrl: "",
         sourceUrl: "https://www.instagram.com/p/DOIf-9VEh2P/",
@@ -2690,7 +2783,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "오리제육볶음",
         chef: "이정현",
-        category: "복음",
+        categoryId: 2,
+        tag: ["제육", "오리"],
         imgUrl: "images/DSMdIULEtYp.png",
         videoUrl: "",
         sourceUrl: "https://www.instagram.com/p/DSMdIULEtYp/",
@@ -2722,7 +2816,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "삭히지 않는 부산땡초무침",
         chef: "1분요리왕 통키",
-        category: "무침",
+        categoryId: 2,
+        tag: ["무침", "땡초"],
         imgUrl: "images/DWgw1mwj_DA.png",
         videoUrl: "",
         sourceUrl: "https://www.instagram.com/p/DWgw1mwj_DA/",
@@ -2755,7 +2850,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "문어 오렌지 샐러드 (4-5인분 +/-)",
         chef: "에밀리엣홈",
-        category: "샐러드",
+        categoryId: 9,
+        tag: ["샐러드", "문어", "오렌지"],
         imgUrl: "images/DVSaZ8SEgVN.png",
         videoUrl: "",
         sourceUrl: "https://www.instagram.com/p/DVSaZ8SEgVN/",
@@ -2790,7 +2886,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "오징어 두부 두루치기 2인분",
         chef: "하리미쿡",
-        category: "두루치기",
+        categoryId: 2,
+        tag: ["두루치기", "오징어", "두부"],
         imgUrl: "images/DWbDuuJk0Em.png",
         videoUrl: "",
         sourceUrl: "https://www.instagram.com/p/DWbDuuJk0Em/",
@@ -2820,7 +2917,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "가지 두부볶음",
         chef: "청이레시피",
-        category: "볶음",
+        categoryId: 2,
+        tag: ["볶음", "가지"],
         imgUrl: "images/DTgmtddk66T.png",
         videoUrl: "",
         sourceUrl: "https://www.instagram.com/p/DTgmtddk66T/",
@@ -2851,7 +2949,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "고등어찜",
         chef: "청이레시피",
-        category: "찜",
+        categoryId: 2,
+        tag: ["찜", "고등어"],
         imgUrl: "images/DW2RRKik5UI.png",
         videoUrl: "",
         sourceUrl: "https://www.instagram.com/p/DW2RRKik5UI/",
@@ -2877,7 +2976,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "아작한 식감 오이국수",
         chef: "청이레시피",
-        category: "면",
+        categoryId: 6,
+        tag: ["국수", "오이"],
         imgUrl: "images/DMOiuXfTxd7.png",
         videoUrl: "",
         sourceUrl: "https://www.instagram.com/p/DMOiuXfTxd7/?img_index=1",
@@ -2905,7 +3005,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "브런치카페 뺨치는 버섯샐러드",
         chef: "청이레시피",
-        category: "샐러드",
+        categoryId: 9,
+        tag: ["샐러드", "버섯"],
         imgUrl: "images/DVw49bGE75y.png",
         videoUrl: "",
         sourceUrl: "https://www.instagram.com/p/DVw49bGE75y/",
@@ -2929,7 +3030,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "윤주모의 화재의 무생채",
         chef: "윤주모",
-        category: "생채",
+        categoryId: 1,
+        tag: ["생채", "무"],
         imgUrl: "images/49qKKu159Xk.png",
         videoUrl: "https://youtu.be/49qKKu159Xk?si=9jQM6PaVuhr0oldt",
         sourceUrl: "",
@@ -2959,7 +3061,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "KFC 보다 맛있는 코울슬로",
         chef: "정호영",
-        category: "샐러드",
+        categoryId: 9,
+        tag: ["코울슬로", ""],
         imgUrl: "images/2BvBrecFJS0.png",
         videoUrl: "https://www.youtube.com/watch?v=2BvBrecFJS0",
         sourceUrl: "",
@@ -2989,7 +3092,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "어디에도 어울리는 만능 양념장 3인분기준",
         chef: "정호영",
-        category: "소스",
+        categoryId: 7,
+        tag: ["소스", ""],
         imgUrl: "images/DmQa-O3Q9Qc.png",
         videoUrl: "https://www.youtube.com/watch?v=DmQa-O3Q9Qc",
         sourceUrl: "",
@@ -3020,7 +3124,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "당근 라페 타파스",
         chef: "정호영",
-        category: "간식",
+        categoryId: 9,
+        tag: ["타파스", "당근", "라페"],
         imgUrl: "images/HqX21YVCd08.png",
         videoUrl: "https://www.youtube.com/watch?v=HqX21YVCd08",
         sourceUrl: "",
@@ -3051,7 +3156,8 @@ export const recipes: Recipe[] = [
     createRecipe({
         title: "",
         chef: "",
-        category: "",
+        categoryId: 0,
+        tag: ["", ""],
         imgUrl: "images/sample.png",
         videoUrl: "",
         sourceUrl: "",

@@ -4,7 +4,8 @@ export interface Recipe {
   videoUrl: string;
   title: string;
   chef: string;
-  category: string;
+  categoryId: number;
+  tag: string[];
   sourceUrl: string;
   ingredients: string[];
   steps: string[];
