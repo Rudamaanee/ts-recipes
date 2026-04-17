@@ -6,7 +6,7 @@ import RecipeCard from "@/components/RecipeCard";
 import SearchBar from "@/components/SearchBar";
 
 type Filter = {
-  category: string | null;
+  category: number | null;
   chef: string | null;
   tag: string | null; // ✅ 추가
 };
@@ -32,7 +32,7 @@ export default function Home() {
 
   // ✅ 카테고리 옵션
   const categoryOptions = useMemo(() => {
-    return categories.map((c) => c.name);
+    return categories.map((c) => ({ id: c.id, label: c.name }));
   }, []);
 
   // ✅ 셰프 옵션
@@ -60,7 +60,7 @@ export default function Home() {
     // category
     if (
       filter.category &&
-      categoryMap[r.categoryId] !== filter.category
+      r.categoryId !== filter.category
     )
       return false;
 
