@@ -3680,7 +3680,6 @@ export const recipes: Recipe[] = [
             "남은 소스 넣어 가볍게 섞으면 끝",
         ]
     }),
-] // export
     createRecipe({
         title: "",
         chef: "",
