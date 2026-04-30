@@ -4,6 +4,7 @@ import { categories } from "@/data/categories";
 import FilterBar from "@/components/FilterBar";
 import RecipeCard from "@/components/RecipeCard";
 import SearchBar from "@/components/SearchBar";
+import ScrollButtons from "@/components/ScrollButtons";
 
 type Filter = {
   category: number | null;
@@ -80,7 +81,7 @@ export default function Home() {
   });
 
   return (
-    <div className="recipes-wrap">
+    <div className="recipes-wrap" id="scroll-area">
       <header>
         <h1>Recipes</h1>
         <SearchBar onSearch={setKeyword} />
@@ -100,6 +101,8 @@ export default function Home() {
           <RecipeCard key={item.id} recipe={item} />
         ))}
       </section>
+
+      <ScrollButtons />
     </div>
   );
 }
